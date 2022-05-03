@@ -1,0 +1,8 @@
+    START 200
+    MOVER AREG , CREG
+    MOVEM AREG , X
+L1  MOVER BREG , CREG
+    ORIGIN L1 + 3
+    LTORG
+X   DS  1
+    END 
